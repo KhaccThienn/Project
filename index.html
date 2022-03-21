@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ZonexZ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="/data/imgbin_eagle-logo-png.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header row justify-content-around p-2 navbar-dark bg-dark align-items-center">
+
+            <div class="search-icon">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i
+                        class="bi bi-person"></i></button>
+
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <header class="card-header">
+                                <h4 class="card-title mt-2">Sign up</h4>
+                            </header>
+                            <article class="card-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col form-group">
+                                            <label>First name </label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div> <!-- form-group end.// -->
+                                        <div class="col form-group">
+                                            <label>Last name</label>
+                                            <input type="text" class="form-control" placeholder=" ">
+                                        </div> <!-- form-group end.// -->
+                                    </div> <!-- form-row end.// -->
+                                    <div class="form-group">
+                                        <label>Email address</label>
+                                        <input type="email" class="form-control" placeholder="">
+                                        <small class="form-text text-muted">We'll never share your email with anyone
+                                            else.</small>
+                                    </div> <!-- form-group end.// -->
+                                    <div class="form-group">
+                                        <label class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" value="option1">
+                                            <span class="form-check-label"> Male </span>
+                                        </label>
+                                        <label class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" value="option2">
+                                            <span class="form-check-label"> Female</span>
+                                        </label>
+                                    </div> <!-- form-group end.// -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label>City</label>
+                                            <input type="text" class="form-control">
+                                        </div> <!-- form-group end.// -->
+                                        <div class="form-group col-md-6">
+                                            <label>Country</label>
+                                            <select id="inputState" class="form-control">
+                                                <option> Choose...</option>
+                                                <option>Uzbekistan</option>
+                                                <option>Russia</option>
+                                                <option>United States</option>
+                                                <option>India</option>
+                                                <option>Afganistan</option>
+                                                <option selected="">Vietnam</option>
+                                            </select>
+                                        </div> <!-- form-group end.// -->
+                                    </div> <!-- form-row.// -->
+                                    <div class="form-group">
+                                        <label>Create password</label>
+                                        <input class="form-control" type="password">
+                                    </div> <!-- form-group end.// -->
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block"> Register </button>
+                                    </div> <!-- form-group// -->
+                                    <small class="text-muted">By clicking the 'Register' button, you confirm that you
+                                        accept our
+                                        <br> Terms of use
+                                        and Privacy Policy.</small>
+                                </form>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-center row align-items-center justify-content-between">
+                <div class="navbar-left">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="logo-main">
+                    <img src="/data/logo zonex.png" alt="" class="card-img p-3">
+                </div>
+                <div class="navbar-right">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="cart-icon">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".ex-2"><i
+                        class="bi bi-cart"></i></button>
+
+                <div class="modal fade bd-example-modal-lg ex-2" tabindex="-1" role="dialog"
+                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg ex-2">
+                        <div class="modal-content">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="border-0 bg-light">
+                                                <div class="p-2 px-3 text-uppercase">Product</div>
+                                            </th>
+                                            <th scope="col" class="border-0 bg-light">
+                                                <div class="py-2 text-uppercase">Price</div>
+                                            </th>
+                                            <th scope="col" class="border-0 bg-light">
+                                                <div class="py-2 text-uppercase">Quantity</div>
+                                            </th>
+                                            <th scope="col" class="border-0 bg-light">
+                                                <div class="py-2 text-uppercase">Remove</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="border-0">
+                                                <div class="p-2">
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-cart/product-1.jpg"
+                                                        alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                    <div class="ml-3 d-inline-block align-middle">
+                                                        <h5 class="mb-0"> <a href="#"
+                                                                class="text-dark d-inline-block align-middle">Timex
+                                                                Unisex
+                                                                Originals</a></h5><span
+                                                            class="text-muted font-weight-normal font-italic d-block">Category:
+                                                            Watches</span>
+                                                    </div>
+                                                </div>
+                                            </th>
+                                            <td class="border-0 align-middle"><strong>$79.00</strong></td>
+                                            <td class="border-0 align-middle"><strong>3</strong></td>
+                                            <td class="border-0 align-middle"><a href="#" class="text-dark"><i
+                                                        class="fa fa-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">
+                                                <div class="p-2">
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-cart/product-2.jpg"
+                                                        alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                    <div class="ml-3 d-inline-block align-middle">
+                                                        <h5 class="mb-0"><a href="#"
+                                                                class="text-dark d-inline-block">Lumix camera lense</a>
+                                                        </h5>
+                                                        <span
+                                                            class="text-muted font-weight-normal font-italic">Category:
+                                                            Electronics</span>
+                                                    </div>
+                                                </div>
+                                            </th>
+                                            <td class="align-middle"><strong>$79.00</strong></td>
+                                            <td class="align-middle"><strong>3</strong></td>
+                                            <td class="align-middle"><a href="#" class="text-dark"><i
+                                                        class="fa fa-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">
+                                                <div class="p-2">
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-cart/product-3.jpg"
+                                                        alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                    <div class="ml-3 d-inline-block align-middle">
+                                                        <h5 class="mb-0"> <a href="#"
+                                                                class="text-dark d-inline-block">Gray Nike running
+                                                                shoe</a>
+                                                        </h5><span
+                                                            class="text-muted font-weight-normal font-italic">Category:
+                                                            Fashion</span>
+                                                    </div>
+                                                </div>
+                                            </th>
+                                            <td class="align-middle"><strong>$79.00</strong></td>
+                                            <td class="align-middle"><strong>3</strong></td>
+                                            <td class="align-middle"><a href="#" class="text-dark"><i
+                                                        class="fa fa-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="carouselId" class="carousel slide container" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="card bg-dark text-white container container-cus">
+                    <img src="data/carousel-1.png" class="card-img img-cus" alt="...">
+                    <div class="card-img-overlay card-img-overlay-custom">
+                        <h1 class="card-title">Just Do It !</h1>
+                        <button class="btn btn-primary">Check Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card bg-dark text-white container container-cus">
+                    <img src="data/carousel-2.png" class="card-img img-cus" alt="...">
+                    <div class="card-img-overlay card-img-overlay-custom">
+                        <h1 class="card-title">Run, Don't Hide</h1>
+                        <button class="btn btn-primary">Check Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card bg-dark text-white container container-cus">
+                    <img src="data/carousel-4.jpg" class="card-img img-cus" alt="...">
+                    <div class="card-img-overlay card-img-overlay-custom">
+                        <h1 class="card-title">Nike Flash - Be Seen Stay Dry</h1>
+                        <button class="btn btn-primary">Check Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <div class="banner-product container mt-4">
+        <div class="row">
+                <div class="col-xl-4 item">
+                    <div class="card">
+                        <div class="mh-250 overflow-hidden">
+                            <img class="card-img align-middle" src="/data/p-1.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-img-overlay overlay-custom">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 item">
+                    <div class="card">
+                        <div class="mh-250 overflow-hidden">
+                            <img class="card-img align-middle w-100" src="/data/p-2.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-img-overlay overlay-custom">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 item">
+                    <div class="card">
+                        <div class="mh-250 overflow-hidden">
+                            <img class="card-img align-middle" src="/data/p-4.jpg" alt="Card image">
+                        </div>
+
+                        <div class="card-img-overlay overlay-custom">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <main class="main container mt-5">
+        <div class="nav-bar w-50 container">
+            <ul class="d-flex justify-content-between align-items-center">
+                <li class="list-unstyled "><a href="" class="">Best Seller</a></li>
+                <li class="list-unstyled "><a href="" class="">New Product</a></li>
+                <li class="list-unstyled "><a href="" class="">Sale Product</a></li>
+            </ul>
+        </div>
+
+        <div class="main-product mt-5">
+            <div class="row justify-content-between content align-items-center">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                            class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                                <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                                <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350 w-100">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-between mt-5 content align-items-center">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="card ">
+                        <div class="card-img-2 mh-350 w-100">
+                            <img src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1593191159111-R1NLP671WL9OV675YFAS/chup-anh-san-pham-maki-studio-14.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Perfume</h5>
+                            <p class="card-text">999,999<sup>vnd</sup></p>
+                            <a href="" class="btn btn-outline-primary">CHECK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-danger" id="loadMore"> Load More <br> <p class="text-center"><i class="fa-solid fa-arrow-down"></i></p></a>
+        </div>
+    </main>
+    <div class="footer-banner container-fluid d-flex justify-content-between align-items-center mt-5 w-100">
+        <div class="footer-banner-left">
+            <div class="card bg-dark text-white">
+                <img class="card-img mh-420" src="data/carousel-1.png" alt="">
+                <div class="card-img-overlay text-center-bottom">
+                    <h1 class="card-title">Nike - Just Do It</h1>
+                </div>
+            </div>
+        </div>
+        <div class="footer-banner-right">
+            <div class="card bg-dark text-white">
+                <img class="card-img mh-420" src="data/carousel-1.png" alt="">
+                <div class="card-img-overlay text-center-bottom">
+                    <h1 class="card-title">Nike - Just Do It</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+    
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset ml-3">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Zonex
+                        </h6>
+                        <p>
+                            Hay mua yasuo theo cach cua ban
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i>238 HQV</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            mizumuzik113@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +84 392 689 213</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
